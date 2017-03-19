@@ -4,7 +4,7 @@ MAINTAINER Lee Briggs <lee@leebriggs.co.uk>
 
 # Run some upgrades
 RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get upgrade -y
 
 # install supervisor
 RUN apt-get install -y supervisor
