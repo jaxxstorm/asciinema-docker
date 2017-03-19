@@ -19,4 +19,5 @@ ENTRYPOINT []
 
 # run supervisor
 CMD ["/usr/bin/supervisord"]
+#CMD ["rbenv", "exec", "bundle", "exec", "rails", "server"]
 
