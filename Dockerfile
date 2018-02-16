@@ -1,4 +1,4 @@
-FROM asciinema/asciinema.org
+FROM asciinema/asciinema-server
 
 MAINTAINER Lee Briggs <lee@leebriggs.co.uk>
 
